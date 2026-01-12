@@ -161,7 +161,7 @@ elif st.session_state.page == "about":
     with n1:
         st.markdown("<div style='text-align:right; padding-right:2rem;'><h3>Nabila Maharani Yudhistiro</h3><p><strong>NIM:</strong> 004202400116<br><strong>Role:</strong> UI/UX Designer</p><p style='color:#6bb6ff; font-style:italic;'>Beauty in every pixel</p></div>", unsafe_allow_html=True)
     with n2:
-        try: st.image("assets/Nabila.jpg", width="stretch")
+        try: st.image("assets/nabila.jpg", width="stretch")
         except: st.image("https://via.placeholder.com/300/cbf0ff/000?text=Nabila Maharani Yudhistiro", width="stretch")
     
     # Talytha
@@ -177,7 +177,7 @@ elif st.session_state.page == "about":
     with z1:
         st.markdown("<div style='text-align:right; padding-right:2rem;'><h3>Zahra Aulia Al Madani</h3><p><strong>NIM:</strong> 004202400087<br><strong>Role:</strong> Researcher & Testing</p><p style='color:#6bb6ff; font-style:italic;'>Exploring the unknown</p></div>", unsafe_allow_html=True)
     with z2:
-        try: st.image("assets/Zahra.jpg", width="stretch")
+        try: st.image("assets/zahra.jpg", width="stretch")
         except: st.image("https://via.placeholder.com/300/d8f3ff/000?text=Zahra Aulia Al Madani", width="stretch")
 
 # ================== FOOTER ==================
@@ -202,4 +202,5 @@ def convolution(img, kernel):
                     out[i,j,k] = np.sum(padded[i:i+kh, j:j+kw, k] * kernel)
         return out
     return img
+
 
